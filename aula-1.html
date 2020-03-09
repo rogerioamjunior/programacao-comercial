@@ -1,0 +1,151 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Programação Comercial</title>
+		<script src="js/funcoes.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+	<body>
+		<h1>Primeiro Cabeçalho</h1>
+		<!--<h2>Primeiro Cabeçalho</h2>
+		<h3>Primeiro Cabeçalho</h3>
+		<h4>Primeiro Cabeçalho</h4>
+		<h5>Primeiro Cabeçalho</h5>
+		<h6>Primeiro Cabeçalho</h6>-->
+		<p>Primeiro Paragrafo</p>
+		
+		<img src="img/img.jpg" title="Primeira Imagem" height="80">
+
+		<a href="https://github.com/" target="blank">
+		Primeiro link
+		</a>	
+
+		<h2>Lista Ordenada</h2>
+		<ol>
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+		</ol>
+
+		<h2>Lista Não Ordenada</h2>
+		<ul>
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+		</ul>
+
+		<table>
+			<caption>Descrição da Tabela</caption>
+			<thead>
+				<tr>
+					<th>Coluna 1</th>
+					<th>Coluna 2</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Linha 1 - Coluna 1</td>
+					<td>Linha 1 - Coluna 2</td>
+				</tr>
+				<tr>
+					<td>Linha 2 - Coluna 1</td>
+					<td>Linha 2 - Coluna 2</td>
+				</tr>
+				<tr>
+					<td>Linha 3 - Coluna 1</td>
+					<td>Linha 3 - Coluna 2</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<form action="/cadastro/" method="post">
+			Login: <input type="text" name="login" placeholder="Digite seu Login">
+			Senha: <input type="password" name="senha">
+
+			<br/>
+			<input type="radio" name="sexo" value="1" checked>Masculino
+			<input type="radio" name="sexo" value="2" >Feminino
+
+			<br/>
+
+			<input type="checkbox" name="veiculo1" value="bike" >Eu tenho uma bike
+			<input type="checkbox" name="veiculo2" value="carro" >Eu tenho um carro
+
+			<br />
+
+			Curso:
+			<select name="curso">
+				<option value="1">Ciência da Computação</option>
+				<option value="2">Direito</option>
+				<option value="3">Engenharia Elétrica</option>
+				<option value="4">Medicina</option>
+			</select>	
+
+			<br />
+			Mensagem: <textarea name="message" rows="10" cols="30"></textarea>
+
+			<br />
+			
+			Idade: <input type="number" name="idade" min="0" max="100" step="1" value="30">
+
+			<br />
+			
+			Data de nascimento: <input type="date" name="data_nascimento" min="2000-01-02">
+
+			<br />
+			
+			Auto Complete: <input list="cidades">
+			<datalist id="cidades">
+				<option>Palmas</option>
+				<option>Araguaina</option>
+				<option>Gurupi</option>
+				<option>Tocantinópolis</option>
+				<option>Miracema</option>
+				<option>Itaguatins</option>
+				<option>Anápolis</option>
+				<option>Goiânia</option>
+				<option>Brasilia</option>
+				<option>Pugmil</option>
+			</datalist>
+
+			<input type="hidden" name="country" value="Brasil">
+
+			<br />
+
+			<input type="reset" value="Limpar">
+			<input type="submit" value="Enviar">
+			<button type="button" onclick="alert('Hello World:')">Click Me</button>
+		</form>
+
+		<div id="area-mensagens">
+			Elemento de Bloco
+		</div>
+		Elements <span class="destaque"> de</span> linha
+
+		<h2>
+			<a href="://www.w3schools.com/html/html_examples.asp" target="blank">
+				Outros elementos
+			</a>
+		</h2>
+
+		<br />
+
+		<p>Browsers usually indent blockquote elements.</p>
+
+		<blockquote cite="http://www.worldwildlife.org/who/index.html">
+		For nearly 60 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by more than one million members in the United States and close to five million globally.
+		</blockquote>
+
+		<br />
+
+		<h2>A description List</h2>
+
+		<dl>
+			<dt>Coffe</dt>
+  			<dd>- black hot drink</dd>
+ 			<dt>Milk</dt>
+  			<dd>- white cold drink</dd>
+		</dl>
+
+	</body>
+</html>
